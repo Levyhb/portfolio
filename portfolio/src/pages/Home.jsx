@@ -43,7 +43,13 @@ export default function Home() {
               🚀 Em busca de{" "}
               <TypeAnimation
                 className="typeAnimation"
-                sequence={[1500, "Aprendizado.", 3000, "uma oportunidade profissional.", 3000]}
+                sequence={[
+                  1500,
+                  "Aprendizado.",
+                  3000,
+                  "uma oportunidade profissional.",
+                  3000,
+                ]}
                 wrapper="div"
                 cursor={true}
                 repeat={Infinity}
@@ -53,13 +59,25 @@ export default function Home() {
           </div>
 
           <div className="social">
-            <a href="https://www.linkedin.com/in/levy-bezerra-holanda/"  target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/levy-bezerra-holanda/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiFillLinkedin /> Linkedin
             </a>
-            <a href="https://github.com/Levyhb" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/Levyhb"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiFillGithub /> Github
             </a>
-            <a href="mailto:levybholanda@gmail.com" target="_blank" rel="noreferrer">
+            <a
+              href="mailto:levybholanda@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <HiOutlineMail />
               Email
             </a>
@@ -70,7 +88,34 @@ export default function Home() {
         </div>
       </section>
       <div className="technologies">
-        
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            alt="react-icon"
+          />{" "}
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+          alt="html-icon"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+          alt="css-icon"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+          alt="jest-icon"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+          alt="bootstrap-icon"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+          alt="git-icon"
+        />
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+          alt="redux-icon"
+        />
       </div>
     </div>
   );
