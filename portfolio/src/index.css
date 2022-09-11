@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+html, body, #root {
+  background-color: #121212;
+  height: 100%;
+}
+
+:root {
+  --primary-light: #63FF71;
+  --primary-dark: #1E9E29;
+}

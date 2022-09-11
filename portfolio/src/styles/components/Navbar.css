@@ -1,0 +1,45 @@
+.navbar {
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem;
+}
+
+.nav-links {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  color: var(--primary-light);
+}
+
+.nav-links .nav-item svg {
+  color: black;
+}
+
+.nav-links a:hover {
+  color: var(--primary-light);
+}
+
+.nav-links a::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid var(--primary-light);
+  margin-top: 5px;
+  transform: scaleX(0);
+  transition: transform 0.4s ease;
+}
+
+.nav-links a:hover::after {
+  transform: scaleX(1);
+}
+
