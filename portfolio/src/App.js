@@ -1,4 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
+import { loadAnimation } from "lottie-web";
+import { defineLordIconElement } from "lord-icon-element";
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';

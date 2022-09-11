@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   color: white;
+  font-family: Helvetica, sans-serif;
 }
 
 html, body, #root {
@@ -13,4 +14,6 @@ html, body, #root {
 :root {
   --primary-light: #63FF71;
   --primary-dark: #1E9E29;
+  --secondary-light: #ba68c8;
+  --secondary-dark: #703e78;
 }

@@ -1,0 +1,92 @@
+.home-container {
+
+}
+
+.presentation-section {
+  display: flex;
+}
+
+.presentation {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emphasis-name {
+  color: var(--primary-light);
+}
+
+.title-presentation h1 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.title-presentation h2 {
+  font-size: 2.8rem;
+}
+
+.title-presentation p {
+  padding-top: 1rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.info-presentation {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.info-presentation p{
+  align-items: center;
+  display: flex;
+  font-size: 1.4rem;
+  color: #c7c7c7;
+}
+
+.typeAnimation {
+  padding-left: 6px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.social a {
+  align-items: center;
+  display: flex;
+  font-size: 1.3rem;
+  padding: .5rem;
+  border: 2px solid var(--primary-dark);
+  border-radius: 10px;
+  color: white;
+  background-color: #121212;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.social a:hover {
+  background-color: var(--primary-dark);
+  border: 2px solid var(--primary-dark);
+  color: white;
+}
+
+.social a svg {
+  margin-right: 5px;
+}
+
+.social a svg path{
+  color: white;
+}
+
+
+.programmer-img {
+  width: 40%;
+}
+
+.programmer-img img {
+  width: 80%;
+}
