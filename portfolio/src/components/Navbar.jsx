@@ -11,7 +11,7 @@ export default function Navbar() {
         </NavLink>
       </div>
       <div className="nav-links">
-        <NavLink to="/" activeClassName="active" className="nav-item">
+        <NavLink to="/" activeclassname="active" className="nav-item">
           Sobre mim{" "}
         </NavLink>
 

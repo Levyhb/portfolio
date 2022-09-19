@@ -1,0 +1,32 @@
+.scroll div {
+  cursor: pointer;
+  font-size: 20px;
+  gap: 2;
+  margin: 2rem ;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  opacity: 0.7;
+}
+
+.scroll div svg {
+  margin-left: .6rem;
+  animation: scroll-down 1s infinite; 
+}
+
+@keyframes scroll-down {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -15px, 0);
+  }
+  30% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 5px, 0);
+  }
+}

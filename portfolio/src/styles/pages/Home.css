@@ -1,7 +1,3 @@
-.home-container {
-
-}
-
 .presentation-section {
   display: flex;
 }
@@ -38,11 +34,10 @@
   padding-bottom: 2.5rem;
 }
 
-.info-presentation p{
+.info-presentation p {
   align-items: center;
   display: flex;
   font-size: 1.4rem;
-  color: #c7c7c7;
 }
 
 .typeAnimation {
@@ -52,20 +47,20 @@
 .social {
   display: flex;
   justify-content: space-around;
-  width: 50%;
+  gap: 1.4rem;
 }
 
 .social a {
   align-items: center;
   display: flex;
   font-size: 1.3rem;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 2px solid var(--primary-dark);
   border-radius: 10px;
   color: white;
   background-color: #121212;
   cursor: pointer;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .social a:hover {
@@ -78,10 +73,9 @@
   margin-right: 5px;
 }
 
-.social a svg path{
+.social a svg path {
   color: white;
 }
-
 
 .programmer-img {
   width: 40%;
@@ -91,21 +85,100 @@
   width: 80%;
 }
 
-.technologies {
-  align-items: center;
+.about-me-section {
+  background-color: #1c1c1c;
+  min-height: 80vh;
+  width: 100%;
   display: flex;
-  width: 80%;
-  margin:  1rem auto;
+  flex-direction: column;
+}
+
+.about-me {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-me-info {
+  width: 40%;
+}
+
+.about-me-info h2 {
+  color: var(--primary-light);
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 1.7rem;
+}
+
+.about-me-info p { 
+  text-align: center ;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.about-me-img {
+  width: 35%;
+}
+
+.about-me-img  img{
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+.technologies-section {
+  min-height: 80vh;
+  padding-bottom: 2rem;
+}
+
+.tech-contents {
+  display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 
-.technologies img {
-  width: 40px;
-  opacity: 0.5;
+.title-technologies {
+  color: var(--primary-light);
+  margin-bottom: 4rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.about-technologies {
+  text-align: justify;
+  font-size: 1.4rem;
+  margin: 4rem auto;
+  width: 40%;
+}
+
+.tech-imgs {
+  width: 40%
+}
+
+.links-contents {
+  margin-top: 4rem ;
+  font-size: 1.6rem;
+  display: flex;
+  padding: 0 2rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.links-contents a {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .5rem 1rem;
+  border: 2px solid var(--primary-dark);
+  border-radius: 10px;
+  color: white;
+  background-color: #121212;
   transition: .5s;
 }
 
-.technologies img:hover {
-  opacity: 1;
+.links-contents a:hover {
+  background-color: var(--primary-dark);
+  border: 2px solid var(--primary-dark);
+  color: white;
 }
-

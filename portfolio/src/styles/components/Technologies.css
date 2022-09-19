@@ -1,0 +1,17 @@
+.technologies {
+  align-items: center;
+  display: flex;
+  width: 80%;
+  margin: 1rem auto;
+  justify-content: space-around;
+}
+
+.technologies img {
+  width: 40px;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.technologies img:hover {
+  opacity: 1;
+}

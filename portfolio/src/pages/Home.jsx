@@ -1,9 +1,24 @@
 import React from "react";
-import programmer from "../imgs/programmer.png";
+import { Link } from "react-router-dom";
 import "../styles/pages/Home.css";
+
 import { TypeAnimation } from "react-type-animation";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import { HiOutlineMail } from "react-icons/hi";
+import {
+  HiOutlineMail,
+  HiDocumentDuplicate,
+  HiOutlineDocumentDownload,
+} from "react-icons/hi";
+import { BiArrowToTop } from "react-icons/bi";
+import { MdContacts } from "react-icons/md";
+
+import Technologies from "../components/Technologies";
+import perfil from "../imgs/perfil.jpeg";
+import tech from "../imgs/tech-img.png";
+import programmer from "../imgs/programmer.png";
+import Scroll from "../components/Scroll";
+import Footer from "../components/Footer";
+import curriculo from "../doc/Curriculo-levy.pdf";
 
 export default function Home() {
   return (
@@ -81,42 +96,83 @@ export default function Home() {
               <HiOutlineMail />
               Email
             </a>
+            <a href={curriculo} target="_blank" rel="noreferrer" download>
+              <HiOutlineDocumentDownload />
+              Download CV
+            </a>
           </div>
         </div>
         <div className="programmer-img">
           <img src={programmer} alt="programmer" />
         </div>
       </section>
-      <div className="technologies">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-            alt="react-icon"
-          />{" "}
-        <img
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-          alt="html-icon"
-        />
-        <img
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-          alt="css-icon"
-        />
-        <img
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
-          alt="jest-icon"
-        />
-        <img
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-          alt="bootstrap-icon"
-        />
-        <img
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-          alt="git-icon"
-        />
-        <img
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
-          alt="redux-icon"
-        />
-      </div>
+
+      <Technologies />
+
+      <Scroll title="Sobre mim" top="700" />
+
+      <section className="about-me-section">
+        <div className="about-me">
+          <div className="about-me-img">
+            <img src={perfil} alt="img-perfil" />
+          </div>
+          <div className="about-me-info">
+            <h2>
+              &lt; <span>Sobre mim</span> /&gt;
+            </h2>
+            <p>
+              Olá, eu sou Levy Bezerra Holanda, tenho 21 anos, moro em
+              Fortaleza, no Ceará. Sou um curioso e apaixonado por Tecnologia, e
+              por marcas que trabalhem para contribuir com inovações digitais.
+              Trabalhei como Aprendiz de Ti na M. Dias Branco por um ano e meio,
+              onde pude adquirir bastante conhecimento e conexões, foi o
+              primeiro grande passo na minha vida profissional. Atualmente,
+              estou estudando Desenvolvimento Web full stack na Trybe, onde
+              pretendo continuar me desenvolvendo para iniciar minha carreira
+              com programação. Trabalho e acredito em ações que possam gerar um
+              impacto positivo na vida das pessoas.
+            </p>
+          </div>
+        </div>
+        <Scroll title="Tecnologias que eu domino" top="1500" />
+      </section>
+
+      <section className="technologies-section">
+        <div className="tech-contents">
+          <div className="about-technologies">
+            <h2 className="title-technologies">
+              &lt; <span>Quais tecnologias eu domino?</span> /&gt;
+            </h2>
+            <p>
+              Gosto de trabalhar com metodologias ágeis como Scrum e Kanban, em
+              Front end eu desenvolvo com: HTML5, CSS3, JavaScript ES6,
+              TypeScript, React.js, React Native, React Router, Redux, Context
+              API, React Hooks, Bootstrap, Tailwind CSS. Realizo testes
+              unitários com Jest. Possuo domínio com ferramentas como o Unix
+              &#38; Bash, Git, Github.
+            </p>
+          </div>
+          <div className="tech-imgs">
+            <img src={tech} alt="technologies" />
+          </div>
+        </div>
+        <Technologies />
+        <div className="links-contents">
+          <Link
+            to="/"
+            onClick={() => window.scroll({ top: 0, behavior: "smooth" })}
+          >
+            Voltar ao topo <BiArrowToTop />{" "}
+          </Link>
+          <Link to="/projects">
+            Veja meus projetos <HiDocumentDuplicate />
+          </Link>
+          <Link to="/contact">
+            Entre em contato comigo <MdContacts />
+          </Link>
+        </div>
+      </section>
+      <Footer />
     </div>
   );
 }
