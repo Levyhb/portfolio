@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ProjectDetails from './pages/ProjectDetails';
 defineLordIconElement(loadAnimation);
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path='/' element={ <Home />}/>
         <Route path='/contact' element={ <Contact />}/>
         <Route path='/projects' element={ <Projects />}/>
+        <Route path='/projects/:id' element={ <ProjectDetails />} /> 
       </Routes>
       <Footer />
     </div>

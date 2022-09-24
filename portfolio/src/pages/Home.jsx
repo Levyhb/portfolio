@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import {
   HiOutlineMail,
-  HiDocumentDuplicate,
+  HiDocument,
   HiOutlineDocumentDownload,
 } from "react-icons/hi";
 import { BiArrowToTop } from "react-icons/bi";
@@ -167,7 +167,7 @@ export default function Home() {
             to="/projects"
             onClick={() => window.scroll({ top: 0, behavior: "smooth" })}
           >
-            Veja meus projetos <HiDocumentDuplicate />
+            Veja meus projetos <HiDocument />
           </Link>
           <Link
             to="/contact"

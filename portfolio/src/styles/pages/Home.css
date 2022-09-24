@@ -86,7 +86,7 @@
 }
 
 .about-me-section {
-  background-color: #1c1c1c;
+  background-color: var(--bg-color-light);
   min-height: 650px;
   width: 100%;
   display: flex;
@@ -173,7 +173,7 @@
   border: 2px solid var(--primary-dark);
   border-radius: 10px;
   color: var(--primary-dark);
-  background-color: #121212;
+  background-color: var(--bg-color-dark);
   transition: .5s;
 }
 

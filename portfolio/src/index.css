@@ -9,13 +9,14 @@
 :root {
   --primary-light: #1CE658;
   --primary-dark: #1E9E29;
-  --secondary-light: #5319a5;
+  --secondary-light: #7f32ee;
   --secondary-dark: #411183;
-  --bg-color: #121212;
+  --bg-color-light: #1c1c1c;
+  --bg-color-dark: #121212;
 }
 
 html, body, #root {
-  background-color: var(--bg-color);
+  background-color: var(--bg-color-dark);
   height: 100%;
 }
 

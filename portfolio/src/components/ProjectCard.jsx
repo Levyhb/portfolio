@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/pages/Projects.css";
 
-export default function ProjectCard({ name, gif, image, link, repository }) {
+export default function ProjectCard({id,  name, gif, image, link, repository }) {
   const [handleGif, setHandleGif] = useState(false);
 
   return (
@@ -17,12 +18,11 @@ export default function ProjectCard({ name, gif, image, link, repository }) {
         />
       </a>
       <div className="project-buttons">
-        <button type="button">Mais detalhes</button>
-          <a href={ repository } target="_blank" rel="noreferrer">
-        <button type="button">
-            Repositório
-        </button>
-            </a>
+        <Link to={`/projects/${ id }`}><button type="button">Mais detalhes</button></Link>
+
+        <a href={repository} target="_blank" rel="noreferrer">
+          <button type="button">Repositório</button>
+        </a>
       </div>
     </div>
   );

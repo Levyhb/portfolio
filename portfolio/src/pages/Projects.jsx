@@ -8,11 +8,12 @@ export default function Projects() {
     <div className="project-container">
       {PROJECTS.map((project) => (
         <ProjectCard
-          name={project.name}
-          image={project.image}
-          gif={project.gif}
-          link={project.deploy}
-          repository={project.repository}
+          id={ project.id }
+          name={ project.name }
+          image={ project.image }
+          gif={ project.gif }
+          link={ project.deploy }
+          repository={ project.repository }
         />
       ))}
     </div>
