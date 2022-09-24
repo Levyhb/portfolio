@@ -172,10 +172,11 @@
   padding: .5rem 1rem;
   border: 2px solid var(--primary-dark);
   border-radius: 10px;
-  color: white;
+  color: var(--primary-dark);
   background-color: #121212;
   transition: .5s;
 }
+
 
 .links-contents a:hover {
   background-color: var(--primary-dark);

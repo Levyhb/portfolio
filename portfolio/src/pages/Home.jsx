@@ -17,7 +17,6 @@ import perfil from "../imgs/perfil.jpeg";
 import tech from "../imgs/tech-img.png";
 import programmer from "../imgs/programmer.png";
 import Scroll from "../components/Scroll";
-import Footer from "../components/Footer";
 import curriculo from "../doc/Curriculo-levy.pdf";
 
 export default function Home() {
@@ -164,10 +163,16 @@ export default function Home() {
           >
             Voltar ao topo <BiArrowToTop />{" "}
           </Link>
-          <Link to="/projects">
+          <Link
+            to="/projects"
+            onClick={() => window.scroll({ top: 0, behavior: "smooth" })}
+          >
             Veja meus projetos <HiDocumentDuplicate />
           </Link>
-          <Link to="/contact">
+          <Link
+            to="/contact"
+            onClick={() => window.scroll({ top: 0, behavior: "smooth" })}
+          >
             Entre em contato comigo <MdContacts />
           </Link>
         </div>

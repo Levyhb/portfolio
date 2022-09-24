@@ -11,7 +11,8 @@ export default function Projects() {
           name={project.name}
           image={project.image}
           gif={project.gif}
-          link={project.url}
+          link={project.deploy}
+          repository={project.repository}
         />
       ))}
     </div>
