@@ -87,7 +87,7 @@
 
 .about-me-section {
   background-color: #1c1c1c;
-  min-height: 80vh;
+  min-height: 650px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -128,7 +128,7 @@
 }
 
 .technologies-section {
-  min-height: 80vh;
+  min-height: 650px;
   padding-bottom: 2rem;
 }
 

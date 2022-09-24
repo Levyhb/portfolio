@@ -1,0 +1,32 @@
+.footer {
+  font-size: 14px;
+  background-color: var(--secondary-dark);
+  text-align: center;
+  padding: .5rem;
+}
+
+.footer p a {
+  font-weight: bold;
+}
+
+.footer p a:hover {
+  color: var(--primary-light);
+}
+
+.footer .social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+  margin: auto;
+  padding: .2rem;
+}
+
+.footer .social-links svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footer .social-links svg path:hover {
+  color: var(--primary-light);
+}

@@ -14,8 +14,7 @@ html, body, #root {
 :root {
   --primary-light: #1CE658;
   --primary-dark: #1E9E29;
-  --secondary-light: #ba68c8;
-  --secondary-dark: #703e78;
+  --secondary-dark: #411183;
 }
 
 ::-webkit-scrollbar {

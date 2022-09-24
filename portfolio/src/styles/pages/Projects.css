@@ -1,0 +1,29 @@
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.project-name {
+  font-size: 1.8rem;
+}
+
+.project-card .media {
+  width: 100%;
+  opacity: 0.7;
+  scale: 0.9;
+  transition: 0.5s;
+}
+
+.project-card .media:hover {
+  opacity: 1;
+  scale: 1;
+}

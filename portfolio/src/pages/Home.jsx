@@ -134,7 +134,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <Scroll title="Tecnologias que eu domino" top="1500" />
+        <Scroll title="Tecnologias que eu domino" top="1350" />
       </section>
 
       <section className="technologies-section">
@@ -172,7 +172,6 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <Footer />
     </div>
   );
 }
