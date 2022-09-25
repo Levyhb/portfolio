@@ -35,7 +35,7 @@ export default function Home() {
               cursor={true}
               repeat={Infinity}
               style={{
-                fontSize: "2.8rem",
+                fontSize: "3rem",
                 color: " var(--primary-light)",
                 fontWeight: "bold",
               }}
@@ -120,13 +120,13 @@ export default function Home() {
               &lt; <span>Sobre mim</span> /&gt;
             </h2>
             <p>
-              Olá, eu sou Levy Bezerra Holanda, tenho 21 anos, moro em
+              Olá, eu sou <span className="about-me-name">Levy Bezerra Holanda</span>, tenho 21 anos, moro em
               Fortaleza, no Ceará. Sou um curioso e apaixonado por Tecnologia, e
               por marcas que trabalhem para contribuir com inovações digitais.
-              Trabalhei como Aprendiz de Ti na M. Dias Branco por um ano e meio,
+              Trabalhei como Aprendiz de Ti na <span className="about-me-name">M. Dias Branco</span> por um ano e meio,
               onde pude adquirir bastante conhecimento e conexões, foi o
               primeiro grande passo na minha vida profissional. Atualmente,
-              estou estudando Desenvolvimento Web full stack na Trybe, onde
+              estou estudando Desenvolvimento Web full stack na <span className="about-me-name">Trybe</span>, onde
               pretendo continuar me desenvolvendo para iniciar minha carreira
               com programação. Trabalho e acredito em ações que possam gerar um
               impacto positivo na vida das pessoas.

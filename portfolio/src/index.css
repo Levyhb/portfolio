@@ -13,6 +13,9 @@
   --secondary-dark: #411183;
   --bg-color-light: #1c1c1c;
   --bg-color-dark: #121212;
+
+  --animate-delay: 0;
+  --animate-duration: 800ms;
 }
 
 html, body, #root {
@@ -22,5 +25,5 @@ html, body, #root {
 
 
 ::-webkit-scrollbar {
-  display: none;
+  /* display: none; */
 }

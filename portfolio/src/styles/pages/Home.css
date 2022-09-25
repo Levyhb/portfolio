@@ -1,3 +1,7 @@
+.home-container {
+  animation: fadeIn 1.2s 0s;
+}
+
 .presentation-section {
   display: flex;
 }
@@ -104,6 +108,11 @@
   width: 40%;
 }
 
+.about-me-name {
+  color: var(--primary-light);
+  font-weight: bold;
+}
+
 .about-me-info h2 {
   color: var(--primary-light);
   font-size: 2rem;
@@ -156,6 +165,10 @@
   width: 40%
 }
 
+.tech-imgs img {
+  width: 100%;
+}
+
 .links-contents {
   margin-top: 4rem ;
   font-size: 1.6rem;
@@ -172,7 +185,6 @@
   padding: .5rem 1rem;
   border: 2px solid var(--primary-dark);
   border-radius: 10px;
-  color: var(--primary-dark);
   background-color: var(--bg-color-dark);
   transition: .5s;
 }
@@ -182,4 +194,64 @@
   background-color: var(--primary-dark);
   border: 2px solid var(--primary-dark);
   color: white;
+}
+
+@media only screen and (max-width: 1100px) {
+  .presentation-section {
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+  }
+
+  .social a {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .presentation-section {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .presentation {
+    width: 100%;
+  }
+  
+  .social {
+    padding: 1rem 0;
+  }
+
+  .programmer-img img {
+    width: 100%;
+  }
+
+  .about-me {
+    flex-direction: column;
+  }
+
+  .about-me-img {
+    width: 40%;
+  }
+
+  .about-me-info {
+    width: 80%;
+  }
+  
+  .about-technologies {
+    width: 80%;
+  }
+
+  .tech-imgs {
+    display: none;
+  }
+
+  .links-contents {
+    font-size: 1.1rem;
+    padding: 0 .5rem;
+  }
+
+  .links-contents a {
+    width: 32%;
+    padding: .5rem 1rem;
+  }
 }

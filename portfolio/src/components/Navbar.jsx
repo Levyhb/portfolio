@@ -5,7 +5,7 @@ import "../styles/components/Navbar.css";
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <div className="nav-links">
+      <div className="nav-link-tag">
         <NavLink to="/" activeClassName="active" className="nav-item">
           &lt; /&gt;
         </NavLink>

@@ -8,6 +8,7 @@ export default function Projects() {
     <div className="project-container">
       {PROJECTS.map((project) => (
         <ProjectCard
+          key={project.id}
           id={ project.id }
           name={ project.name }
           image={ project.image }

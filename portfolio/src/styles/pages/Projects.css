@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 1rem;
+  padding: 3rem 1rem;
   min-height: 80vh;
+  animation: fadeInUp 1s 0s;
 }
 
 .project-container .project-card {
@@ -11,7 +12,7 @@
   flex-direction: column;
   align-items: center;
   width: 30%;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   padding-bottom: 1rem;
   box-shadow: 0 0 4px black;
   background-color: var(--bg-color-light);
@@ -23,8 +24,8 @@
 }
 
 .project-container .project-card .media {
-  width: 350px;
-  height: 210px;
+  max-width: 100%;
+  min-height: 210px;
   opacity: 0.7;
   scale: 0.9;
   transition: 0.5s; 
