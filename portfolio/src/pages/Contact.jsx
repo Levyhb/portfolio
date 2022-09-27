@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import "../styles/pages/Contact.css";
 import "animate.css";
@@ -36,17 +35,13 @@ export default function Contact() {
   return (
     <div className="contact-container">
       <h2 className="contact-title">
-        &lt;Quer trocar uma idéia?
+        &lt; Que tal trocarmos uma idéia?
         <TypeAnimation
           sequence={[500, `Me envie uma mensage />`]}
           wrapper="div"
           cursor={true}
           repeat={Infinity}
-          style={{
-            fontSize: "2.6rem",
-            color: " var(--primary-light)",
-            fontWeight: "bold",
-          }}
+          className="type-animation-contact"
         />
       </h2>
       <form action="" className="form-contact" onSubmit={sendEmail} ref={ refForm }>

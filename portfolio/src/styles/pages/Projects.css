@@ -59,3 +59,37 @@
   color: var(--bg-color-dark);
   border: 1px solid var(--bg-color-dark);
 }
+
+.back-to-top {
+  cursor: pointer;
+  margin: auto;
+  display: none;
+  align-items: center;
+  gap: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .project-container .project-card {
+    width: 40%;
+  }
+
+  .project-buttons {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .project-container {
+    padding: 2rem .5rem;
+  }
+
+  .project-container .project-card {
+    width: 80%;
+    margin: 1.2rem auto;
+  }
+
+  .back-to-top {
+    display: flex;
+  }
+}

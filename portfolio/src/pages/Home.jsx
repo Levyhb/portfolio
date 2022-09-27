@@ -34,10 +34,9 @@ export default function Home() {
               wrapper="div"
               cursor={true}
               repeat={Infinity}
+              className="type-animation-name"
               style={{
-                fontSize: "3rem",
-                color: " var(--primary-light)",
-                fontWeight: "bold",
+
               }}
             />
             <p>
@@ -56,18 +55,17 @@ export default function Home() {
             <p>
               🚀 Em busca de{" "}
               <TypeAnimation
-                className="typeAnimation"
+                className="type-animation-presentation"
                 sequence={[
                   1500,
                   "Aprendizado.",
-                  3000,
+                  4500,
                   "uma oportunidade profissional.",
                   3000,
                 ]}
                 wrapper="div"
                 cursor={true}
                 repeat={Infinity}
-                style={{ fontSize: "1.4rem", color: "#c7c7c7" }}
               />
             </p>
           </div>

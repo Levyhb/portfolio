@@ -25,5 +25,5 @@ html, body, #root {
 
 
 ::-webkit-scrollbar {
-  /* display: none; */
+  display: none;
 }

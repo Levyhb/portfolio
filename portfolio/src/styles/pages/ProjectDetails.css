@@ -24,7 +24,7 @@
 }
 
 .project-details-card .preview-project {
-  min-width: 550px;
+  width: 100%;
 }
 
 .project-details-describe {
@@ -85,4 +85,34 @@
   background-color: var(--secondary-dark);
   color: white;
   border: 1px solid white;
+}
+
+@media only screen and (max-width: 768px) {
+  .project-details-container {
+    width: 90%;
+  }
+
+  .project-details-card {
+    padding: .8rem;
+  }
+
+  .project-details-title {
+    font-size: 2rem;
+  }
+  
+  .project-details-card .preview-project {
+    min-width: none;
+    width: 100%;
+  }
+
+  .project-details-technologies .technologies {
+    width: 100%;
+  }
+
+  .details-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
 }
