@@ -50,14 +50,12 @@ export default function Contact() {
             type="text"
             placeholder="Nome"
             name="name"
-            // onChange={({ target }) => setName(target.value)}
             required
           />
           <input
             type="email"
             name="email"
-            placeholder="email"
-            // onChange={({ target }) => setEmail(target.value)}
+            placeholder="Email"
             required
           />
         </div>
@@ -66,7 +64,6 @@ export default function Contact() {
           placeholder="Assunto"
           name="subject"
           className="subject"
-          // onChange={({ target }) => setSubject(target.value)}
           required
         />
         <textarea
@@ -75,7 +72,6 @@ export default function Contact() {
           rows="5"
           className="message-contact"
           placeholder="Mensagem"
-          // onChange={({ target }) => setMessage(target.value)}
           required
         />
         <button type="submit" value="submit" className="send-forms">
