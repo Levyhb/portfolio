@@ -27,7 +27,7 @@
   width: 100%;
 }
 
-.describe {
+.project-details-info h3 {
   color: var(--primary-light);
   display: flex;
   align-items: center;
@@ -40,29 +40,14 @@
   color: var(--primary-light);
 }
 
-.project-details-describe {
+.project-details-info {
   padding: 1rem ;
   text-align: justify;
   letter-spacing: 1px;
   width: 100%;
 }
 
-
-.project-details-technologies {
-  padding: 1rem ;
-  width: 100%;
-}
-
-.project-details-technologies .technologies-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  padding-bottom: 1rem;
-  color: var(--primary-light);
-}
-
-.project-details-technologies .technologies-title svg path {
+.project-details-info .technologies-title svg path {
   color: var(--primary-light);
 }
 
