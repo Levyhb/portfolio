@@ -69,7 +69,7 @@ export const PROJECTS = [
     name: "Pixel art",
     gif: pixelArtGif,
     image: pixelArtImg,
-    technologies: ["javascript, html, css, git"],
+    technologies: ["javascript", "html", "css", "git"],
     deploy: "https://levyhb.github.io/JavaScript-projects/meus-projetos/Pixel-Art/index.html",
     repository: "https://github.com/Levyhb/JavaScript-projects",
     describe: "Um projeto de pixel art, construído com javascript, html e css.",

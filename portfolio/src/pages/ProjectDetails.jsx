@@ -20,7 +20,6 @@ export default function ProjectDetails() {
 
   const findProject = () => {
     const idToNumber = Number(id);
-    console.log(PROJECTS);
     const projectById = PROJECTS.find((e) => e.id === idToNumber);
     setproject(projectById);
   };
