@@ -37,7 +37,7 @@ export default function Contact() {
       <h2 className="contact-title">
         &lt; Que tal trocarmos uma idéia?
         <TypeAnimation
-          sequence={[500, `Me envie uma mensage />`]}
+          sequence={[500, `Me envie uma mensagem />`]}
           wrapper="div"
           cursor={true}
           repeat={Infinity}
