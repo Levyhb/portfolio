@@ -27,6 +27,19 @@
   width: 100%;
 }
 
+.describe {
+  color: var(--primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding-bottom: 1rem;
+}
+
+.describe svg path {
+  color: var(--primary-light);
+}
+
 .project-details-describe {
   padding: 1rem ;
   text-align: justify;
@@ -34,13 +47,6 @@
   width: 100%;
 }
 
-.describe {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  padding-bottom: 1rem;
-}
 
 .project-details-technologies {
   padding: 1rem ;
@@ -53,6 +59,11 @@
   justify-content: center;
   gap: 5px;
   padding-bottom: 1rem;
+  color: var(--primary-light);
+}
+
+.project-details-technologies .technologies-title svg path {
+  color: var(--primary-light);
 }
 
 .details-buttons {
