@@ -7,6 +7,28 @@
   animation: fadeInUp 1s 0s;
 }
 
+.projects-title-container {
+  animation: fadeIn 1s 0s;
+  margin: 2rem auto;
+}
+
+.projects-title-container div{
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.title-projects {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  gap: 6px;
+}
+
+.type-animation-projects {
+  color: var(--primary-light);
+  font-weight: 700;
+}
+
 .project-container .project-card {
   display: flex;
   flex-direction: column;
