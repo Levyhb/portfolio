@@ -10,6 +10,14 @@
 - Git
 - React.js
 
+## Bibliotecas utilizadas:
+
+- [react-icons](https://react-icons.github.io/react-icons/)
+- [hamburguer-react](https://www.npmjs.com/package/hamburger-react)
+- [react-type-animation](https://www.npmjs.com/package/react-type-animation)
+- [emailjs-com](https://www.npmjs.com/package/emailjs-com)
+- [animate.css](https://animate.style/)
+
 
 ## Demonstração
 
