@@ -147,6 +147,7 @@
   width: 100%;
   opacity: 0.9;
   border-radius: 5px;
+  box-shadow: -5px 4px 4px 1px var(--primary-dark);
 }
 
 .technologies-section {
@@ -307,6 +308,10 @@
 
   .about-me-img {
     width: 50%;
+  }
+
+  .about-me-img img {
+    box-shadow: 0 5px 2px var(--primary-light);
   }
 
   .about-me-info h2 {
