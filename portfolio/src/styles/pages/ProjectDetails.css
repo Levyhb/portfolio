@@ -51,6 +51,18 @@
   color: var(--primary-light);
 }
 
+.viewport {
+  display: flex;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.viewport h4 {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
 .details-buttons {
   display: flex;
   width: 100%;

@@ -5,8 +5,9 @@ import { useParams } from "react-router-dom";
 import { PROJECTS } from "../projects/project";
 import { AiFillGithub } from "react-icons/ai";
 import { HiDocument, HiDocumentText } from "react-icons/hi";
-import "../styles/pages/ProjectDetails.css";
 import { MdComputer } from "react-icons/md";
+import { TbViewportWide } from "react-icons/tb";
+import "../styles/pages/ProjectDetails.css";
 import convertTechnologies from "../helpers/convertTechnologies";
 import "../styles/components/Technologies.css";
 
@@ -41,6 +42,10 @@ export default function ProjectDetails() {
               Descrição <HiDocumentText />
             </h3>
             <p>{project.describe}</p>
+            <div className="viewport">
+              <h4><TbViewportWide /> Viewport:</h4>
+              <p>{project.viewport}</p>
+            </div>
           </div>
 
           <div className="project-details-info">
