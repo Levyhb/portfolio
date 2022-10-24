@@ -16,6 +16,7 @@ export default function Technologies() {
         {convertTechnologies("redux")}
         {convertTechnologies("tailwind")}
         {convertTechnologies("typescript")}
+        {convertTechnologies("docker")}
       </div>
   )
 }

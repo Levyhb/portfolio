@@ -95,7 +95,7 @@ export default function Home() {
             </a>
             <a href={curriculo} target="_blank" rel="noreferrer" download>
               <HiOutlineDocumentDownload />
-              Baixar CV
+              Currículo
             </a>
           </div>
         </div>

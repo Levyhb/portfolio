@@ -70,6 +70,13 @@ function convertTechnologies(technologie) {
         alt="typescript-icon"
       />
     );
+  if (technologie === "docker")
+    return (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+        alt="docker-icon"
+      />
+    );
   return "";
 }
 
