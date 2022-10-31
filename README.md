@@ -21,7 +21,7 @@
 
 ## Demonstração
 
-#### Veja aqui o resultado: [portifólio](https://portfolio-levy-bezerra-dokb.vercel.app/)
+#### Veja aqui o resultado: [portfólio](https://portfolio-levy-bezerra-dokb.vercel.app/)
 
 
 ## Autores
