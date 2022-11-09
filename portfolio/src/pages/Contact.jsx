@@ -5,9 +5,9 @@ import "animate.css";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
-// const serviceId = import.meta.env.EMAILJS_SERVICE_ID;
-// const templateId = import.meta.env.EMAILJS_TEMPLATE_ID;
-// const publicKey = import.meta.env.EMAILJS_USER_ID;
+const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+const publicKey = process.env.REACT_APP_EMAILJS_USER_ID;
 
 export default function Contact() {
   const refForm = useRef();
@@ -16,10 +16,10 @@ export default function Contact() {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_6usbdin",
-        "template_68a9rfa",
+        serviceId,
+        templateId,
         refForm.current,
-        "CAcDcXqszVed0flxO",
+        publicKey,
       )
       .then(
         () => {
