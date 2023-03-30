@@ -14,10 +14,23 @@ import trybetunesImg from "./imgs/trybetunes.jpeg";
 import trybetunesGif from "./videos/trybetunes.gif";
 import recipesAppImg from "./imgs/recipes-app.jpeg";
 import recipesAppGif from "./videos/recipes-app.gif";
+import devsocialImg from "./imgs/devsocial.jpeg";
+import devsocialGif from "./videos/devsocial.gif";
 
 export const PROJECTS = [
   {
-  id:1,
+    id:1,
+    name:"DevSocial",
+    gif: devsocialGif,
+    image: devsocialImg,
+    technologies: ["javascript", "html", "css", "git", "react", "socket.io", "nodejs", "mongodb"],
+    viewport: 'Desktop',
+    deploy: "https://dev-social-dpkg.vercel.app/",
+    repository: "https://github.com/Levyhb/DevSocial",
+    describe:"DevSocial é uma aplicação full stack, desenvolvido com ReactJs, NodeJs, MongoDb e Socket.io. Consiste em uma rede social semelhante ao facebook, onde é possível criar uma conta e fazer login, editar perfil, pesquisar por um usuário, criar postagens, trocar mensagens com outros usuários, entre outras funcionalidades.",
+    },
+  {
+  id:2,
   name:"Recipes App",
   gif: recipesAppGif,
   image: recipesAppImg,
@@ -28,7 +41,7 @@ export const PROJECTS = [
   describe:"O projeto Recipes App consiste em uma aplicação em React.js que simula um aplicativo para consulta de receitas de comidas e bebidas, com um design feito somente para mobile. Para buscar as informações de cada receita, foi necessário fazer uma requisição á API de comidas TheMealDB e á API de bebidas CockTailDB.",
   },
   {
-    id: 2,
+    id: 3,
     name: "Movies_Lib",
     gif: moviesLibGif,
     image: moviesLibImg,
@@ -39,7 +52,7 @@ export const PROJECTS = [
     describe: "O projeto MoviesLib consiste numa aplicação onde precisei fazer uma requisição á API do TMDB para exibir catálogo de filmes, onde é possível pesquisar um filme, ver eles por categorias e ver os detalhes do filme."
   },
   {
-    id: 3,
+    id: 4,
     name: "Trybetunes",
     gif: trybetunesGif,
     image: trybetunesImg,
@@ -50,7 +63,7 @@ export const PROJECTS = [
     describe: "O trybetunes consiste em um projeto onde tive que criar uma aplicação para pesquisar e listar álbuns e músicas, através de uma requisição á API do iTunes.",
   },
   {
-    id: 4,
+    id: 5,
     name: "Shopping Cart",
     gif: shoppingCartGif,
     image: shoppingCartImg,
@@ -61,7 +74,7 @@ export const PROJECTS = [
     describe: "O projeto Shopping Cart consiste em uma aplicação onde é simulado um carrinho de compra, com um catálogo gerado através da API do mercado livre."
   },
   {
-    id: 5,
+    id: 6,
     name: "Tryunfo",
     gif: tryunfoGif,
     image: tryunfoImg,
@@ -72,7 +85,7 @@ export const PROJECTS = [
     describe: "Projeto Tryunfo consiste em desenvolver um gerador de cartas com uso de estados de componentes em React, assim como captura de eventos e formulários.",
   },
   {
-    id: 6,
+    id: 7,
     name: "Trybewallet",
     gif: trybewalletGif,
     image: trybewalletImg,
@@ -83,7 +96,7 @@ export const PROJECTS = [
     describe: "TrybeWallet é uma aplicação em React.js com Redux, que consiste em um sistema de controle de gastos, onde é possível adicionar ou remover uma despesa. Para esse projeto foi necessário fazer uma requisição a uma API de cotação de moedas.",
   },
   {
-    id: 7,
+    id: 8,
     name: "Pixel art",
     gif: pixelArtGif,
     image: pixelArtImg,
@@ -94,7 +107,7 @@ export const PROJECTS = [
     describe: "Um projeto de pixel art, construído com javascript, html e css.",
   },
   {
-    id: 8,
+    id: 9,
     name: "Trybewarts",
     gif: trybewartsGif,
     image: trybewartsImg,
