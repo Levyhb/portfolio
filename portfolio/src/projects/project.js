@@ -23,7 +23,7 @@ export const PROJECTS = [
     name:"DevSocial",
     gif: devsocialGif,
     image: devsocialImg,
-    technologies: ["javascript", "html", "css", "git", "react", "socket.io", "nodejs", "mongodb"],
+    technologies: ["javascript", "html", "css", "git", "react", "socket.io", "nodejs", "mongodb", "tailwind"],
     viewport: 'Desktop',
     deploy: "https://dev-social-dpkg.vercel.app/",
     repository: "https://github.com/Levyhb/DevSocial",

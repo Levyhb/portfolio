@@ -101,6 +101,14 @@ function convertTechnologies(technologie) {
         alt="mongodb-icon"
       />
     );
+
+    if (technologie === "tailwind")
+    return (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+        alt="mongodb-icon"
+      />
+    );
   return "";
 }
 
