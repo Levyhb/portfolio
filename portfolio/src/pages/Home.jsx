@@ -35,9 +35,7 @@ export default function Home() {
               cursor={true}
               repeat={Infinity}
               className="type-animation-name"
-              style={{
-
-              }}
+              style={{}}
             />
             <p>
               Desenvolvedor Full Stack
@@ -118,15 +116,19 @@ export default function Home() {
               &lt; <span>Sobre mim</span> /&gt;
             </h2>
             <p>
-              Olá, eu sou <span className="about-me-name">Levy Bezerra Holanda</span>, tenho 21 anos, moro em
-              Fortaleza, no Ceará. Sou um curioso e apaixonado por Tecnologia, e
-              por marcas que trabalhem para contribuir com inovações digitais.
-              Trabalhei como Aprendiz de Ti na <span className="about-me-name">M. Dias Branco</span> por um ano e meio,
-              onde pude adquirir bastante conhecimento e conexões, foi o
-              primeiro grande passo na minha vida profissional. Atualmente,
-              estou estudando Desenvolvimento Web full stack na <span className="about-me-name">Trybe</span>, onde
-              pretendo continuar me desenvolvendo para iniciar minha carreira
-              com programação. Trabalho e acredito em ações que possam gerar um
+              Olá, eu sou{" "}
+              <span className="about-me-name">Levy Bezerra Holanda</span>, tenho
+              21 anos, moro em Fortaleza, no Ceará. Sou um curioso e apaixonado
+              por Tecnologia, e por marcas que trabalhem para contribuir com
+              inovações digitais. Trabalhei como Aprendiz de Ti na{" "}
+              <span className="about-me-name">M. Dias Branco</span> por um ano e
+              meio, onde pude adquirir bastante conhecimento e conexões, foi o
+              primeiro grande passo na minha vida profissional.
+              <br />
+              Atualmente, estou formado no módulo de front-end e back-end da{" "}
+              <span className="about-me-name">Trybe</span>, onde pretendo
+              continuar me desenvolvendo para iniciar minha carreira com
+              programação. Trabalho e acredito em ações que possam gerar um
               impacto positivo na vida das pessoas.
             </p>
           </div>
@@ -141,12 +143,22 @@ export default function Home() {
               &lt; <span>Quais tecnologias eu domino?</span> /&gt;
             </h2>
             <p>
-              Gosto de trabalhar com metodologias ágeis como Scrum e Kanban, em
-              Front end eu desenvolvo com: HTML5, CSS3, JavaScript ES6,
-              TypeScript, React.js, React Native, React Router, Redux, Context
-              API, React Hooks, Bootstrap, Tailwind CSS. Realizo testes
-              unitários com Jest. Possuo domínio com ferramentas como o Unix
-              &#38; Bash, Git, Github.
+              Gosto de trabalhar com metodologias ágeis como Scrum e Kanban,
+              além de possuir domínio com ferramentas como o Unix &#38; Bash,
+              Git, Docker. <br />
+              No <span className="about-me-name">Front-end</span> eu trabalho
+              com:{" "}
+              <strong>
+                {" "}
+                HTML5, CSS3, JavaScript ES6, TypeScript, React.js, React Native,
+                React Router, Redux, Context API, React Hooks, Bootstrap,
+                Tailwind CSS.{" "}
+              </strong>{" "}
+              Realizo testes unitários com <strong>Jest e RTL.</strong>
+              <br />
+              No <span className="about-me-name">Back-end</span> eu trabalho
+              com: <strong> JavaScript, TypeScript, NodeJs, Express,</strong> e
+              banco de dados: <strong>Mongodb e MySql.</strong>
             </p>
           </div>
           <div className="tech-imgs">
