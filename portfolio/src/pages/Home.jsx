@@ -40,7 +40,7 @@ export default function Home() {
               }}
             />
             <p>
-              Desenvolvedor front end
+              Desenvolvedor Full Stack
               <lord-icon
                 src="https://cdn.lordicon.com/nobciafz.json"
                 trigger="hover"
@@ -51,14 +51,14 @@ export default function Home() {
           </div>
 
           <div className="info-presentation">
-            <p>👨‍🎓 Estudante de Desenvolvimento Web full stack na Trybe.</p>
+            <p>👨‍🎓 Desenvolvedor Web full stack pela Trybe.</p>
             <p>
               🚀 Em busca de{" "}
               <TypeAnimation
                 className="type-animation-presentation"
                 sequence={[
                   1500,
-                  "Aprendizado.",
+                  "projetos para colaborar.",
                   4500,
                   "uma oportunidade profissional.",
                   3000,
