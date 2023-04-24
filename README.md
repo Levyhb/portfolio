@@ -1,7 +1,8 @@
 
 # Portfólio 
 
-- Esse é o meu portfólio que desenvolvi utilizando React.js 
+- Esse é o meu portfólio, construído com React.js
+
 ## Tecnologias utilizadas 
 
 - Javascript ES6 
@@ -22,7 +23,6 @@
 ## Demonstração
 
 #### Veja aqui o resultado: [portfólio](https://portfolio-levy-bezerra.vercel.app/)
-
 
 ## Autores
 
