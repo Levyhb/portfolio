@@ -10,13 +10,16 @@ export default function Technologies() {
         {convertTechnologies("html")}
         {convertTechnologies("css")}
         {convertTechnologies("jest")}
-        {convertTechnologies("bootstrap")}
-        {convertTechnologies("css")}
         {convertTechnologies("git")}
         {convertTechnologies("redux")}
         {convertTechnologies("tailwind")}
         {convertTechnologies("typescript")}
         {convertTechnologies("docker")}
+        {convertTechnologies("nodejs")}
+        {convertTechnologies("mongodb")}
+        {convertTechnologies("mysql")}
+        {convertTechnologies("vuejs")}
+        {convertTechnologies("python")}
       </div>
   )
 }

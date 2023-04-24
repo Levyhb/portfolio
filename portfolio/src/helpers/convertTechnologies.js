@@ -77,38 +77,55 @@ function convertTechnologies(technologie) {
         alt="docker-icon"
       />
     );
-
-    if (technologie === "socket.io")
+  if (technologie === "socket.io")
     return (
       <img
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg"
         alt="socket.io-icon"
       />
     );
-
-    if (technologie === "nodejs")
+  if (technologie === "nodejs")
     return (
       <img
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
         alt="nodejs-icon"
       />
     );
-
-    if (technologie === "mongodb")
+  if (technologie === "mongodb")
     return (
       <img
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
         alt="mongodb-icon"
       />
     );
-
-    if (technologie === "tailwind")
+  if (technologie === "tailwind")
     return (
       <img
         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-        alt="mongodb-icon"
+        alt="tailwind-icon"
       />
     );
+  if (technologie === "mysql")
+    return (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+        alt="mysql-icon"
+      />
+    );
+  if (technologie === "python")
+    return (
+      <img
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        alt="python-icon"
+      />
+    );
+  if (technologie === "vuejs")
+  return (
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+      alt="vuejs-icon"
+    />
+  );
   return "";
 }
 
