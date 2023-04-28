@@ -135,7 +135,7 @@
 
 .about-me-info p { 
   text-align: center ;
-  font-size: 1.4rem;
+  font-size: 20px;
   color: white;
 }
 
@@ -173,7 +173,7 @@
 
 .about-technologies {
   text-align: justify;
-  font-size: 1.4rem;
+  font-size: 20px;
   margin: 4rem auto;
   width: 40%;
 }

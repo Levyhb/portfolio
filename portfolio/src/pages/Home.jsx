@@ -128,8 +128,7 @@ export default function Home() {
               Atualmente, estou formado no módulo de front-end e back-end da{" "}
               <span className="about-me-name">Trybe</span>, onde pretendo
               continuar me desenvolvendo para iniciar minha carreira com
-              programação. Trabalho e acredito em ações que possam gerar um
-              impacto positivo na vida das pessoas.
+              programação.
             </p>
           </div>
         </div>
@@ -148,17 +147,15 @@ export default function Home() {
               Git, Docker. <br />
               No <span className="about-me-name">Front-end</span> eu trabalho
               com:{" "}
-              <strong>
                 {" "}
                 HTML5, CSS3, JavaScript ES6, TypeScript, React.js, React Native,
                 React Router, Redux, Context API, React Hooks, Bootstrap,
                 Tailwind CSS.{" "}
-              </strong>{" "}
-              Realizo testes unitários com <strong>Jest e RTL.</strong>
+              Realizo testes unitários com Jest e RTL.
               <br />
               No <span className="about-me-name">Back-end</span> eu trabalho
-              com: <strong> JavaScript, TypeScript, NodeJs, Express,</strong> e
-              banco de dados: <strong>Mongodb e MySql.</strong>
+              com:  JavaScript, TypeScript, NodeJs, Express, e
+              banco de dados: Mongodb e MySql.
             </p>
           </div>
           <div className="tech-imgs">
