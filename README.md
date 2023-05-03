@@ -24,8 +24,4 @@
 
 #### Veja aqui o resultado: [portfólio](https://portfolio-levy-bezerra.vercel.app/)
 
-## Autores
-
-- [@Levyhb](https://github.com/Levyhb)
-
 https://user-images.githubusercontent.com/94788307/192787907-99534fe8-8bc9-46c3-bee0-a602dfc9a0cd.mp4
