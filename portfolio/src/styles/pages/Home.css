@@ -280,12 +280,16 @@
 }
 
 @media only screen and (max-width: 550px) {
-  .type-animation-style {
-    font-size: 2.2rem;
+  .type-animation-name {
+    font-size: 2.4rem;
+  }
+
+  .title-presentation p {
+    font-size: 1.5rem;
   }
 
   .info-presentation p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .programmer-img {
