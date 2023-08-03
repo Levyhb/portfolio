@@ -49,7 +49,7 @@ export default function Home() {
           </div>
 
           <div className="info-presentation">
-            <p>👨‍🎓 Desenvolvedor Web full stack pela Trybe.</p>
+            <p>👨‍🎓 Desenvolvedor mobile na SouJunior (Voluntário).</p>
             <p>
               🚀 Em busca de{" "}
               <TypeAnimation
@@ -125,10 +125,12 @@ export default function Home() {
               meio, onde pude adquirir bastante conhecimento e conexões, foi o
               primeiro grande passo na minha vida profissional.
               <br />
-              Atualmente, estou formado no módulo de front-end e back-end da{" "}
-              <span className="about-me-name">Trybe</span>, onde pretendo
-              continuar me desenvolvendo para iniciar minha carreira com
-              programação.
+              Sou um desenvolvedor full stack, formado no curso de
+              desenvolvimento web full stack pela{" "}
+              <span className="about-me-name">Trybe</span>. Atualmente participo
+              de projetos voluntários na área de desenvolvimento mobile, pela
+              SouJunior, e estou em busca da minha primeira oportunidade
+              profissional.
             </p>
           </div>
         </div>
@@ -146,16 +148,13 @@ export default function Home() {
               além de possuir domínio com ferramentas como o Unix &#38; Bash,
               Git, Docker. <br />
               No <span className="about-me-name">Front-end</span> eu trabalho
-              com:{" "}
-                {" "}
-                HTML5, CSS3, JavaScript ES6, TypeScript, React.js, React Native,
-                React Router, Redux, Context API, React Hooks, Bootstrap,
-                Tailwind CSS.{" "}
-              Realizo testes unitários com Jest e RTL.
+              com: HTML5, CSS3, JavaScript ES6, TypeScript, React.js, React
+              Native, React Router, Redux, Context API, React Hooks, Styled Components,
+              Tailwind CSS. Realizo testes unitários com Jest e RTL.
               <br />
               No <span className="about-me-name">Back-end</span> eu trabalho
-              com:  JavaScript, TypeScript, NodeJs, Express, e
-              banco de dados: Mongodb e MySql.
+              com: JavaScript, TypeScript, NodeJs, Express, e banco de dados:
+              Mongodb e MySql.
             </p>
           </div>
           <div className="tech-imgs">
