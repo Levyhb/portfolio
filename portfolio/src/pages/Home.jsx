@@ -49,7 +49,30 @@ export default function Home() {
           </div>
 
           <div className="info-presentation">
-            <p>👨‍🎓 Desenvolvedor mobile na SouJunior (Voluntário).</p>
+            <p>
+              💼 Custom Software Engineer na
+              <a
+                href="https://www.accenture.com/br-pt"
+                target="_blank"
+                className="link-presentation"
+                rel="noreferrer"
+              >
+                Accenture
+              </a>
+              {"(Assistente)"}.
+            </p>
+            <p>
+              👨‍🎓 Desenvolvedor mobile na{" "}
+              <a
+                href="https://www.soujunior.tech/"
+                target="_blank"
+                className="link-presentation"
+                rel="noreferrer"
+              >
+                SouJunior
+              </a>{" "}
+              (Voluntário).
+            </p>
             <p>
               🚀 Em busca de{" "}
               <TypeAnimation
@@ -118,7 +141,7 @@ export default function Home() {
             <p>
               Olá, eu sou{" "}
               <span className="about-me-name">Levy Bezerra Holanda</span>, tenho
-              21 anos, moro em Fortaleza, no Ceará. Sou um curioso e apaixonado
+              22 anos, sou de Fortaleza-Ce. Sou um curioso e apaixonado
               por Tecnologia, e por marcas que trabalhem para contribuir com
               inovações digitais. Trabalhei como Aprendiz de Ti na{" "}
               <span className="about-me-name">M. Dias Branco</span> por um ano e
@@ -127,10 +150,11 @@ export default function Home() {
               <br />
               Sou um desenvolvedor full stack, formado no curso de
               desenvolvimento web full stack pela{" "}
-              <span className="about-me-name">Trybe</span>. Atualmente participo
-              de projetos voluntários na área de desenvolvimento mobile, pela
-              SouJunior, e estou em busca da minha primeira oportunidade
-              profissional.
+              <span className="about-me-name">Trybe</span>. Participei de
+              projetos voluntários com desenvolvimento mobile na{" "}
+              <span className="about-me-name">SouJunior</span>. Atualmente, tenho o cargo de 
+              Custom Software Engineer {"(Assistente)"}, na{" "}
+              <span className="about-me-name">Accenture</span>.
             </p>
           </div>
         </div>
@@ -149,8 +173,8 @@ export default function Home() {
               Git, Docker. <br />
               No <span className="about-me-name">Front-end</span> eu trabalho
               com: HTML5, CSS3, JavaScript ES6, TypeScript, React.js, React
-              Native, React Router, Redux, Context API, React Hooks, Styled Components,
-              Tailwind CSS. Realizo testes unitários com Jest e RTL.
+              Native, NextJS, Redux, Context API, Styled
+              Components, Tailwind CSS, Vue, Python. Realizo testes unitários com Jest e RTL.
               <br />
               No <span className="about-me-name">Back-end</span> eu trabalho
               com: JavaScript, TypeScript, NodeJs, Express, e banco de dados:

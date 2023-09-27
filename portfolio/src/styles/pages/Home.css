@@ -24,7 +24,7 @@
 }
 
 .type-animation-name {
-  font-size: 2.8rem;
+  font-size: 3.2rem;
   color: var(--primary-light);
   font-weight: bold; 
 }
@@ -54,6 +54,12 @@
   align-items: center;
   display: flex;
   font-size: 1.4rem;
+}
+
+.link-presentation {
+  margin: 5px;
+  font-weight: bold;
+  color: var(--primary-light);
 }
 
 .typeAnimation {
@@ -221,6 +227,11 @@
     align-items: center;
   }
 
+  .info-presentation p {
+    display: block;
+    font-size: 1.2rem;
+  }
+
   .social a {
     font-size: 1rem;
   }
@@ -231,6 +242,7 @@
     flex-direction: column;
     padding: 0 1rem;
   }
+  
 
   .type-animation-presentation {
     font-size: "1.2rem";
@@ -289,6 +301,7 @@
   }
 
   .info-presentation p {
+    display: block;
     font-size: 1.2rem;
   }
 
@@ -323,7 +336,7 @@
   }
 
   .about-me-info p {
-    font-size: 1.2rem;
+    font-size: 18px;
   }
 
   .title-technologies {
@@ -331,7 +344,7 @@
   }
 
   .about-technologies {
-    font-size: 1.2rem;
+    font-size: 18px;
   }
 
   .links-contents {
