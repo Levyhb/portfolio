@@ -40,6 +40,8 @@
 }
 
 .title-presentation p {
+  display: flex;
+  align-items: center;
   padding-top: 1rem;
   font-size: 1.6rem;
   font-weight: bold;

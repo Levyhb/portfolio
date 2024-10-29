@@ -37,7 +37,7 @@ export default function Home() {
               className="type-animation-name"
               style={{}}
             />
-            <p>
+            <p className="position">
               Desenvolvedor Full Stack
               <lord-icon
                 src="https://cdn.lordicon.com/nobciafz.json"
@@ -50,28 +50,15 @@ export default function Home() {
 
           <div className="info-presentation">
             <p>
-              💼 Custom Software Engineer na
+              💼 Desenvolvedor Full Stack 
               <a
-                href="https://www.accenture.com/br-pt"
+                href="https://maisaedu.com.br/"
                 target="_blank"
                 className="link-presentation"
                 rel="noreferrer"
               >
-                Accenture
+                +A Educação
               </a>
-              {"(Assistente)"}.
-            </p>
-            <p>
-              👨‍🎓 Desenvolvedor mobile na{" "}
-              <a
-                href="https://www.soujunior.tech/"
-                target="_blank"
-                className="link-presentation"
-                rel="noreferrer"
-              >
-                SouJunior
-              </a>{" "}
-              (Voluntário).
             </p>
             <p>
               🚀 Em busca de{" "}
@@ -81,7 +68,7 @@ export default function Home() {
                   1500,
                   "projetos para colaborar.",
                   4500,
-                  "uma oportunidade profissional.",
+                  "Aprendizado.",
                   3000,
                 ]}
                 wrapper="div"
@@ -141,20 +128,17 @@ export default function Home() {
             <p>
               Olá, eu sou{" "}
               <span className="about-me-name">Levy Bezerra Holanda</span>, tenho
-              22 anos, sou de Fortaleza-Ce. Sou um curioso e apaixonado
+              23 anos, sou de Fortaleza-Ce, e atualmente sou Desenvolvedor Full Stack na <span className="about-me-name">+A Educação</span>. Sou um curioso e apaixonado
               por Tecnologia, e por marcas que trabalhem para contribuir com
-              inovações digitais. Trabalhei como Aprendiz de Ti na{" "}
-              <span className="about-me-name">M. Dias Branco</span> por um ano e
-              meio, onde pude adquirir bastante conhecimento e conexões, foi o
-              primeiro grande passo na minha vida profissional.
+              inovações digitais. Trabalhei como Engenheiro de software na{" "}
+              <span className="about-me-name">Accenture Brasil</span> por um ano, onde pude adquirir bastante conhecimento e conexões, foi o
+              primeiro grande passo na minha vida profissional na área de desenvolvimento de software.
               <br />
               Sou um desenvolvedor full stack, formado no curso de
               desenvolvimento web full stack pela{" "}
               <span className="about-me-name">Trybe</span>. Participei de
               projetos voluntários com desenvolvimento mobile na{" "}
-              <span className="about-me-name">SouJunior</span>. Atualmente, tenho o cargo de 
-              Custom Software Engineer {"(Assistente)"}, na{" "}
-              <span className="about-me-name">Accenture</span>.
+              <span className="about-me-name">SouJunior</span>.
             </p>
           </div>
         </div>
@@ -178,7 +162,7 @@ export default function Home() {
               <br />
               No <span className="about-me-name">Back-end</span> eu trabalho
               com: JavaScript, TypeScript, NodeJs, Express, e banco de dados:
-              Mongodb e MySql.
+              Mongodb, PostgreeSql e MySql.
             </p>
           </div>
           <div className="tech-imgs">
