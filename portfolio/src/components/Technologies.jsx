@@ -1,5 +1,5 @@
 import React from 'react';
-import convertTechnologies from '../helpers/convertTechnologies';
+import convertTechnologies from '../utils/convertTechnologies';
 import "../styles/components/Technologies.css";
 
 export default function Technologies() {

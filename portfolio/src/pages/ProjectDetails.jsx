@@ -8,7 +8,7 @@ import { HiDocument, HiDocumentText } from "react-icons/hi";
 import { MdComputer } from "react-icons/md";
 import { TbViewportWide } from "react-icons/tb";
 import "../styles/pages/ProjectDetails.css";
-import convertTechnologies from "../helpers/convertTechnologies";
+import convertTechnologies from "../utils/convertTechnologies";
 import "../styles/components/Technologies.css";
 
 export default function ProjectDetails() {
