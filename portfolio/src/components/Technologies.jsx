@@ -12,7 +12,6 @@ export default function Technologies() {
         {convertTechnologies("jest")}
         {convertTechnologies("git")}
         {convertTechnologies("redux")}
-        {convertTechnologies("tailwind")}
         {convertTechnologies("typescript")}
         {convertTechnologies("docker")}
         {convertTechnologies("nodejs")}
