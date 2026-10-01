@@ -13,7 +13,7 @@ import { BiArrowToTop } from "react-icons/bi";
 import { MdContacts } from "react-icons/md";
 
 import Technologies from "../components/Technologies";
-import perfil from "../imgs/perfil.jpeg";
+import perfil from "../imgs/perfil.png";
 import tech from "../imgs/tech-img.png";
 import programmer from "../imgs/programmer.png";
 import Scroll from "../components/Scroll";
@@ -57,7 +57,6 @@ export default function Home() {
                 className="link-presentation"
                 rel="noreferrer"
               >
-                +A Educação
               </a>
             </p>
             <p>
@@ -128,13 +127,12 @@ export default function Home() {
             <p>
               Olá, eu sou{" "}
               <span className="about-me-name">Levy Bezerra Holanda</span>, tenho
-              23 anos, sou de Fortaleza-Ce, e atualmente sou Desenvolvedor Full Stack na <span className="about-me-name">+A Educação</span>. Sou um curioso e apaixonado
+              25 anos, sou de Fortaleza-Ce, e atualmente sou Desenvolvedor Full Stack. Sou um curioso e apaixonado
               por Tecnologia, e por marcas que trabalhem para contribuir com
               inovações digitais. Trabalhei como Engenheiro de software na{" "}
-              <span className="about-me-name">Accenture Brasil</span> por um ano, onde pude adquirir bastante conhecimento e conexões, foi o
-              primeiro grande passo na minha vida profissional na área de desenvolvimento de software.
-              <br />
-              Sou um desenvolvedor full stack, formado no curso de
+              <span className="about-me-name">Accenture Brasil</span> por um ano, onde pude adquirir bastante conhecimento e conexões. Após um ano de Accenture, eu entrei na <span className="about-me-name">+A Educação</span>, para 
+              <br /> atuar como Desenvolvedor Full Stack Jr, onde pude aprimorar minhas habilidades em desenvolvimento web e mobile, além de trabalhar em projetos desafiadores e inovadores.
+              Sou formado no curso de
               desenvolvimento web full stack pela{" "}
               <span className="about-me-name">Trybe</span>. Participei de
               projetos voluntários com desenvolvimento mobile na{" "}
@@ -161,8 +159,8 @@ export default function Home() {
               Components, Tailwind CSS, Vue, Python. Realizo testes unitários com Jest e RTL.
               <br />
               No <span className="about-me-name">Back-end</span> eu trabalho
-              com: JavaScript, TypeScript, NodeJs, Express, e banco de dados:
-              Mongodb, PostgreeSql e MySql.
+              com: JavaScript, TypeScript, NodeJs, Java, Spring Boot, Python, FastApi, Express, e banco de dados:
+              Mongodb, firebase, PostgreeSql e MySql.
             </p>
           </div>
           <div className="tech-imgs">
