@@ -15,15 +15,11 @@ export default function ProjectDetails() {
   const [project, setproject] = useState();
   const { id } = useParams();
 
-  const findProject = () => {
+  useEffect(() => {
     const idToNumber = Number(id);
     const projectById = PROJECTS.find((e) => e.id === idToNumber);
     setproject(projectById);
-  };
-
-  useEffect(() => {
-    findProject();
-  }, []);
+  }, [id]);
 
   return (
     <div className="project-details-container">
