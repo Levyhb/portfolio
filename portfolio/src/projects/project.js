@@ -1,15 +1,9 @@
 import moviesLibImg from "./imgs/movies_lib.jpeg";
 import moviesLibGif from "./videos/movies_lib.gif";
-import shoppingCartImg from "./imgs/shopping-cart.jpeg";
-import shoppingCartGif from "./videos/shopping-cart.gif";
-import trybewalletImg from "./imgs/trybewallet.jpeg";
-import trybewalletGif from "./videos/trybewallet.gif";
 import pixelArtImg from "./imgs/pixel-art.jpeg";
 import pixelArtGif from "./videos/pixel-art.gif";
 import tryunfoImg from "./imgs/tryunfo.jpeg";
 import tryunfoGif from "./videos/tryunfo.gif";
-import trybetunesImg from "./imgs/trybetunes.jpeg";
-import trybetunesGif from "./videos/trybetunes.gif";
 import recipesAppImg from "./imgs/recipes-app.jpeg";
 import recipesAppGif from "./videos/recipes-app.gif";
 import devsocialImg from "./imgs/devsocial.jpeg";
@@ -86,30 +80,6 @@ export const PROJECTS = [
   },
   {
     id: 5,
-    name: "Trybetunes",
-    gif: trybetunesGif,
-    image: trybetunesImg,
-    technologies: ["javascript", "html", "css", "git", "react", "bootstrap"],
-    viewport: "Desktop",
-    deploy: "https://levyhb.github.io/project-trybetunes/",
-    repository: "https://github.com/Levyhb/project-trybetunes",
-    describe:
-      "O trybetunes consiste em um projeto onde tive que criar uma aplicação para pesquisar e listar álbuns e músicas, através de uma requisição á API do iTunes.",
-  },
-  {
-    id: 6,
-    name: "Shopping Cart",
-    gif: shoppingCartGif,
-    image: shoppingCartImg,
-    technologies: ["javascript", "html", "css", "git", "jest", "bootstrap"],
-    viewport: "Desktop",
-    deploy: "https://levyhb.github.io/project-shopping-cart/",
-    repository: "https://github.com/Levyhb/project-shopping-cart",
-    describe:
-      "O projeto Shopping Cart consiste em uma aplicação onde é simulado um carrinho de compra, com um catálogo gerado através da API do mercado livre.",
-  },
-  {
-    id: 7,
     name: "Tryunfo",
     gif: tryunfoGif,
     image: tryunfoImg,
@@ -121,27 +91,7 @@ export const PROJECTS = [
       "Projeto Tryunfo consiste em desenvolver um gerador de cartas com uso de estados de componentes em React, assim como captura de eventos e formulários.",
   },
   {
-    id: 8,
-    name: "Trybewallet",
-    gif: trybewalletGif,
-    image: trybewalletImg,
-    technologies: [
-      "javascript",
-      "html",
-      "css",
-      "git",
-      "react",
-      "redux",
-      "bulma",
-    ],
-    viewport: "Desktop",
-    deploy: "https://project-trybewallet-nu.vercel.app/",
-    repository: "https://github.com/Levyhb/project-trybewallet",
-    describe:
-      "TrybeWallet é uma aplicação em React.js com Redux, que consiste em um sistema de controle de gastos, onde é possível adicionar ou remover uma despesa. Para esse projeto foi necessário fazer uma requisição a uma API de cotação de moedas.",
-  },
-  {
-    id: 9,
+    id: 6,
     name: "Pixel art",
     gif: pixelArtGif,
     image: pixelArtImg,
